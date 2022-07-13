@@ -1,0 +1,45 @@
+a, a:hover {
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+a {
+    font-size: 21px;
+    color: white;
+}
+
+a:hover{
+    font-size: 24px;
+    color: bisque;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+body,.recipes,body>div {
+    display: flex;
+    flex-direction: column;
+}
+
+body > div {
+    background-color: rgba(0, 191, 255, 0.863);
+    width: 500px;
+    height: 250px;
+    margin: 25vh auto 0;
+    padding: 0.5em;
+    justify-content: space-evenly;
+}
+
+.recipes {
+    justify-content: space-between;
+}
+
+body {
+    background-color: rgb(69, 66, 66) ;
+    justify-content: center;
+    align-items: center;
+
+}
